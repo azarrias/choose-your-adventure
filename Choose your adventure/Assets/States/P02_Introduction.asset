@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e405b1581baa0cf44aa04cdbf5571ab3, type: 3}
+  m_Name: P02_Introduction
+  m_EditorClassIdentifier: 
+  storyText: "You're sitting in your car staring at the rain in disbelief. \nIt's
+    late at night, and you car has shut off in the middle of the road while you were
+    driving back home. It won't start back.\nIt's raining pretty hard, and you forgot
+    your umbrella back home.\nYou take a look out the driver's window and you see
+    a gas station neaar the next intersection.\n\nWhat should you do?\n\n1. Stay
+    in the car and call for assistance.\n2. Step out of the car and go to the gas
+    station."
+  nextStates:
+  - {fileID: 11400000, guid: da574972763209246b5fb0f9481fa0f0, type: 2}
+  - {fileID: 11400000, guid: e186d07c2be49f845bb53a9ed8b78115, type: 2}

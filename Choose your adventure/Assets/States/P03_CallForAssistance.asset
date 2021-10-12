@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e405b1581baa0cf44aa04cdbf5571ab3, type: 3}
+  m_Name: P03_CallForAssistance
+  m_EditorClassIdentifier: 
+  storyText: 'As you reach your phone to call your insurance for a tow truck, you
+    notice that you''ve ran out of battery.
+
+    Welp that''s just great.
+
+
+    What
+    should you try next?
+
+
+    1. Go to the gas station that you saw nearby.
+
+    2.
+    Step out of the car and try to find some help.'
+  nextStates:
+  - {fileID: 11400000, guid: e186d07c2be49f845bb53a9ed8b78115, type: 2}
+  - {fileID: 11400000, guid: 8bfad61f404b45d4da91a9a4cb3c2d9b, type: 2}

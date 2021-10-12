@@ -28,3 +28,5 @@ MonoBehaviour:
 
     So, go on and press
     "1" to continue.'
+  nextStates:
+  - {fileID: 11400000, guid: ec4f63a7cf52ffa4f8f4e3a6a1bfbccb, type: 2}

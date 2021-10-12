@@ -29,11 +29,15 @@ public class AdventureGame : MonoBehaviour
 
     private void ManageState()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        { 
+            Application.Quit();
+        }
         for (var i = 0; i < currentState.NextStates.Length; i++)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1 + i))
             {
-                currentState = currentState.NextStates[i];
+                SetCurrentState(currentState.NextStates[i]);
             }
         }
     }
