@@ -166,7 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e58189413a079d44a9ae7e186b74f044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1728934438}
+  storyText: {fileID: 1728934438}
+  startingState: {fileID: 11400000, guid: 5a0f126075581164bba88534564f7aa3, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

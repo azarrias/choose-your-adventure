@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e405b1581baa0cf44aa04cdbf5571ab3, type: 3}
+  m_Name: P01_Welcome
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome visitor.
+
+
+    This is an interactive text adventure, so you
+    will be presented with a series of choices that will determine your story.
+
+
+    For
+    each choice, you''ll be asked to enter a key, e.g. 1, 2, 3.
+
+    But you can
+    hit the "q" key at anytime in order to exit the game.
+
+
+    So, go on and press
+    "1" to continue.'
